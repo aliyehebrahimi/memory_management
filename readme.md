@@ -68,20 +68,24 @@ Search and print records for the specified IDs
 
 ## Output
 The program prints details for each requested employee ID, if found, in the following format:
+```c++
 Employee found:
     ID: 11432121
     NAME: John Doe
     BIO: Software engineer with 10 years of experience.
     MANAGER_ID: 11432000
+```
 
 If not found:
+```
 Employee with ID 11432159 not found.
+```
 
 ## Memory Limitation
 To simulate external memory operations:
 
-Only one page and a page directory are allowed in memory at any time.
-Do not cache or preload the entire file or multiple pages into memory.
+- Only one page and a page directory are allowed in memory at any time.
+- Do not cache or preload the entire file or multiple pages into memory.
 
 ## References
 
@@ -89,16 +93,11 @@ Database Systems: The Complete Book (a.k.a. "Cow Book")
 Sections 9.6.2 and 9.7.2
 
 
-Course lectures on:
-Fixed-length and variable-length records
-Page structure
-External memory hash indexing
-
 
 ## Author
-Aliyeh Ebrahimi
-Oregon State University
-CS 540 – Database Management Systems
+- Aliyeh Ebrahimi
+- Oregon State University
+- CS 540 – Database Management Systems
 
 
 
