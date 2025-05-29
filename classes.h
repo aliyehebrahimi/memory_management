@@ -1,11 +1,3 @@
-/*
-    CS 540: Database Management Systems
-    Instructor: Dr. Arash Termehchy
-    Homework: Homework: Hash Indexing (w7)
-
-    Group 9: Aliyeh Ebrahimi (934634122), Giancarlo Tomasello (932870898)
-    emails: ebrahali@oregonstate.edu, tomaselg@oregonstate.edu
-*/
 
 #include <fstream>
 #include <iostream>
